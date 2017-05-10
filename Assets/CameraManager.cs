@@ -10,7 +10,7 @@ public class CameraManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		//transform.position = new Vector3 (0,2,0);
 		transform.rotation = Quaternion.Euler (0.0f, 0.0f, 0.0f);
 	}
 }
